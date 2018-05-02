@@ -1,0 +1,31 @@
+{
+  "name": "skynetapi/skynetapi-installer",
+  "description": "SkyNetApi application installer.",
+  "keywords": [
+    "laravel",
+    "skynetapi"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TW Dev Team",
+      "email": "517946752@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SkyNetAPI\\Installer\\Console\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "symfony/console": "~2.7|~3.0",
+    "symfony/process": "~2.7|~3.0",
+    "symfony/filesystem": "~2.7|~3.0"
+  },
+  "bin": [
+    "skynetapi"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
